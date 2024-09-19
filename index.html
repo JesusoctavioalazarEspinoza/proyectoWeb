@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Lógica de Programación</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Aprende Lógica de Programación</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#lecciones">Lecciones</a></li>
+            <li><a href="#ejemplos">Ejemplos</a></li>
+            <li><a href="#cuestionario">Cuestionario</a></li>
+            <li><a href="#descargas">Descargas</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a tu curso de Lógica de Programación</h2>
+            <p>Aquí aprenderás los fundamentos de la lógica de programación de manera interactiva.</p>
+        </section>
+        <section id="lecciones">
+            <h2>Lecciones</h2>
+            <ul id="leccion-lista"></ul>
+        </section>
+        <section id="ejemplos">
+            <h2>Ejemplos</h2>
+            <div id="ejemplo-contenido"></div>
+        </section>
+        <section id="cuestionario">
+            <h2>Cuestionario</h2>
+            <div id="pregunta-contenedor">
+                <p id="pregunta"></p>
+                <input type="text" id="respuesta" placeholder="Tu respuesta">
+                <button onclick="verificarRespuesta()">Enviar</button>
+            </div>
+            <p id="retroalimentacion"></p>
+        </section>
+        <section id="descargas">
+            <h2>Descargas de PDFs</h2>
+            <ul id="pdf-lista"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Aprende Lógica de Programación</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
